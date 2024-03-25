@@ -87,7 +87,7 @@ function toggleCompleted(id){
   return (
     <main className="flex min-h-screen  justify-center p-4">
       <div className="container pt-8">
-      <h1 className="text-3xl font-mono text-center">Let's do it!</h1>
+      <h1 className="text-3xl font-mono text-center">Get things done!</h1>
       <Form newTask={newTask} tasks={tasks} />
       <Tasks tasks={tasks} onDelete={onDeleteTask}  toggleCompleted={toggleCompleted} />
       </div>
