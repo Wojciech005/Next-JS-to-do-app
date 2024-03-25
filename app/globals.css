@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.container {
+  max-width: 700px;
+}
