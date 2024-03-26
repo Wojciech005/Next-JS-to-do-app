@@ -48,7 +48,7 @@ export default function Form({newTask, editTask}) {
         <div className="w-full md:w-2/12">
           <button
             type="submit"
-            className="w-full h-14  bg-red-500  p-3 rounded shadow-xl text-white"
+            className="w-full h-14 bg-yellow-400/75   p-3 rounded shadow-xl text-white"
           >
             Add Task
           </button>

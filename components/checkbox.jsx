@@ -5,7 +5,7 @@ export default function CheckboxPage({taskStatus}) {
         <>
         <div>
             <label>
-            <input type="checkbox"  className="accent-pink-500 w-6 h-6" checked={taskStatus} />
+            <input type="checkbox"  className=" accent-yellow-300 w-6 h-6" checked={taskStatus} readOnly/>
             </label>
         </div>
         </>
